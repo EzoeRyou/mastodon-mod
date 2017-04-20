@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Mastodon MOD",
+    "version": "1.0",
+
+    "description": "A simple CSS modification for mastodon",
+    
+
+    "content_scripts": [
+        {
+            "matches": ["https://friends.nico/web/*"],
+            "css": ["style.css"]
+        }
+    ],
+
+    "permissions": [
+        "https://friends.nico/web/*"
+    ]
+}
