@@ -3,6 +3,15 @@
     height : 360px !important ;
 }
 
+.emoji-dialog {
+    z-index : 1 !important  ;
+    position : fixed !important ;
+    top : 200px !important ;
+    left : 0px !important ;
+    margin-left : 25% !important ;
+    height : 50% !important ;
+}
+
 .column {
     flex : 1 1 0 !important ;
 }
@@ -26,3 +35,4 @@ div.nico-connect-account {
 div.column-icon.collapsable + div {
     overflow : scroll !important ;
 }
+
