@@ -1,25 +1,47 @@
 .drawer {
+    overflow : visible ;
     width : 25% !important ;
-    height : 360px !important ;
+    height : 400px !important ;
 }
 
 .emoji-dialog {
     z-index : 1 !important  ;
     position : fixed !important ;
-    top : 200px !important ;
+    top : 5% !important ;
     left : 0px !important ;
     margin-left : 25% !important ;
-    height : 50% !important ;
+    height : 90% !important ;
 }
 
 .column {
     flex : 1 1 0 !important ;
 }
+
+.drawer__header
+{
+    position : absolute !important ;
+    width : 15% !important ;
+    left : 45% !important ;
+    margin-left : 1em ;
+}
+
+.search
+{
+    position : absolute !important ;
+    width : 20% !important ;
+    left : 25% !important ;
+}
+
+
+.column:nth-child(2) {
     
+    margin-top : 60px !important ;
+}
+  
 .column:nth-child(3) {
     position : fixed !important ;
     width : 25% !important ; 
-    margin-top : 350px !important ;
+    top : 390px !important ;
     height : 100% ;
     padding-left : 10px !important ;
 }
