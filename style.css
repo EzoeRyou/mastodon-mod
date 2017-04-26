@@ -58,3 +58,7 @@ div.column-icon.collapsable + div {
     overflow : scroll !important ;
 }
 
+/* 画像を消す */
+a {
+    background : initial !important ;
+}
