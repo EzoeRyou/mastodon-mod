@@ -34,7 +34,6 @@
 
 
 .column:nth-child(2) {
-    
     margin-top : 60px !important ;
 }
   
@@ -44,6 +43,11 @@
     top : 390px !important ;
     height : 100% ;
     padding-left : 10px !important ;
+}
+
+/* LTLのサイズ調整 */
+.column:nth-child(3) + div {
+    flex : 1 1 0 !important ;
 }
 
 /* 
@@ -63,6 +67,4 @@ div.column-icon.collapsable + div {
 }
 
 /* 画像を消す */
-a {
-    background : initial !important ;
-}
+
