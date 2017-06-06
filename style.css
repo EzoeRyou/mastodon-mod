@@ -1,5 +1,5 @@
 .drawer {
-    overflow : visible ;
+    overflow : visible !important ;
     width : 25% !important ;
     height : 400px !important ;
 }
@@ -17,13 +17,19 @@
     flex : 1 1 0 !important ;
 }
 
+.column, .drawer {
+    contain : none !important ;
+}
+
+
 .drawer__header
 {
     position : absolute !important ;
-    width : 15% !important ;
     left : 45% !important ;
-    margin-left : 1em ;
+    width : 20% !important ;
+    margin-left : 1em !important ;
 }
+
 
 .search
 {
@@ -31,7 +37,6 @@
     width : 20% !important ;
     left : 25% !important ;
 }
-
 
 .column:nth-child(2) {
     margin-top : 60px !important ;
