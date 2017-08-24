@@ -10,7 +10,7 @@
         {
             "matches": ["https://friends.nico/*"],
             "css": ["style.css"],
-            "js": ["script.js"]
+            "js-enable-for-mathjax": ["script.js"]
         }
     ],
 

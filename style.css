@@ -67,9 +67,20 @@ ul.announcements {
     display : none !important ;
 }
 
+div.announcements__admin {
+    display : none !important ;
+}
+
 div.column-icon.collapsable + div {
     overflow : scroll !important ;
 }
 
-/* 画像を消す */
+/* アンケートを消す */
+div.enquete-form {
+    display : none !important ;
+}
 
+/* 画像を消す */
+div.media-gallery {
+    display : none !important ;
+}
