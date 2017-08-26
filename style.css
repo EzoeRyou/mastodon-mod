@@ -38,10 +38,12 @@
     left : 25% !important ;
 }
 
+/* Homeの上に空間を開ける */
 .column:nth-child(2) {
     margin-top : 60px !important ;
 }
-  
+
+/* 通知欄を左下に */  
 .column:nth-child(3) {
     position : fixed !important ;
     width : 25% !important ; 
@@ -49,6 +51,14 @@
     height : 100% ;
     padding-left : 10px !important ;
 }
+
+/* リプライ、Retoot、Like、その他を消す */
+
+div.status__action-bar {
+    display : none ;
+}
+
+/* アカウントTLならば表示するようにしたいがうまい方法が思いつかない */
 
 /* LTLのサイズ調整 */
 .column:nth-child(3) + div {
@@ -63,6 +73,7 @@ div.nico-connect-account {
     display : none !important ;
 }
 
+/* アナウンスを消す */
 ul.announcements {
     display : none !important ;
 }
